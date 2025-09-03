@@ -105,3 +105,57 @@ li a {
 
 }
 
+/* About page Information */
+
+.about{
+    margin: 40px 240px 130px 240px ;
+
+}
+
+.about-details{
+    padding: 131px 156px ;
+    text-align: center;
+    
+   
+}
+
+.about-title{
+    font-weight: 700;
+    font-size: 35px;
+    
+
+
+}
+.about-div{
+    background-color: #FFFFFF;
+    /* padding: 70px 40px; */
+    margin: 100px;
+    border: 1px solid #000000;
+}
+
+.about-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* margin-top: 20px; */
+
+}
+
+.about-list{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 40px 0px; */
+}
+
+.about-head{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about-head2{
+    font-weight: 700;
+    font-size: 19px;
+
+    /* line-height: 30px; */
+}
+
