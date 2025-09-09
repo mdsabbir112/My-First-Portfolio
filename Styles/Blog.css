@@ -66,8 +66,11 @@ li a {
     padding: 20px 40px;
     border-radius: 5px;
     border: 0px;
+    
    
 }
+
+
 
 /* Banner Information  */
 
@@ -86,13 +89,16 @@ li a {
 .banner-hi{
     font-weight: 600;
     font-size: 45px;
-    padding: 0;
+   
+    margin-bottom: 0px;
     
 
 }
 .banner-title{
     font-weight: 700;
     font-size: 85px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     /* padding: -5px; */
     
 
@@ -100,10 +106,20 @@ li a {
 .banner-description{
     font-weight: 400;
     font-size: 18px;
-    /* padding-bottom: 10px;
-   */
+    padding-bottom: 20px;
+  
 
 }
+
+.banner img{
+    border-radius: 900px;
+}
+
+/* .banner-content > div{
+    diaplay: flex;
+    justify-content: flex-start;
+    gap: 30px;
+} */
 
 /* About page Information */
 
@@ -159,3 +175,81 @@ li a {
     /* line-height: 30px; */
 }
 
+/* Card and List items  */
+
+.card{
+   
+
+}
+
+.card-header{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.what{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.card-header p{
+    margin: 30px 420px 50px 420px;
+    font-weight: 400;
+    font-size: 18px;    
+    line-height: 30px;
+    text-align: center;
+}
+
+.card-2{
+    margin: 50px 230px 100px 230px;
+    
+   
+}
+.card-list{
+     display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+
+}
+.card-list div{
+      /* padding; 30px; */
+      width: 250px;
+      height: 370px;
+       box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.skill-description{
+    /* padding: 30px; */
+      font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.div-padding{
+    padding: 30px;
+}
+
+.style-title{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+/* CV  Section  */
+
+.cv-mainclass{
+
+}
+
+.cv-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0px 650px ;
+    
+    
+    
+}
