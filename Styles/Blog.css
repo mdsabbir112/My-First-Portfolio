@@ -241,15 +241,59 @@ li a {
 
 /* CV  Section  */
 
-.cv-mainclass{
+.section{
 
 }
 
-.cv-title{
+.section-deatails{
+
+}
+
+.section-maintitle{
+    font-size: 30px;
     font-weight: 700;
-    font-size: 35px;
-    margin: 0px 650px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px ;
     
+
+    /* margin:130px 570px 110px 570px ; */
     
+}
+
+.section-content{
+    display: flex; 
+    gap: 70px;
+    margin: 0px 220px 50px 270px ;
+}
+
+.section-button{
+    display: flex ;
+    justify-content: center;
+    /* margin: 0px 700px 0px 700px ; */
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.subtitle{
+    font-size: 25px;
+    font-weight: 700;
     
+
+}
+
+.school{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
 }
