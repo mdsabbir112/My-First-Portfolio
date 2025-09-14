@@ -271,6 +271,7 @@ li a {
 .section-button{
     display: flex ;
     justify-content: center;
+    margin-bottom: 113px ;
     /* margin: 0px 700px 0px 700px ; */
 }
 
@@ -296,4 +297,54 @@ li a {
 .description{
     font-size: 16px;
     font-weight: 400;
+}
+
+
+/* Footer Section  */
+
+.main-footer{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 120px;
+    padding: 130px 230px 130px 230px ;
+    
+    
+}
+
+.footer-connect{
+    width: 50%;
+
+}
+
+.foot-title{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.icon-gap{
+    display: flex;
+    gap: 25px;
+}
+
+.foot-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 28px;
+    width: 70%;
+  
+}
+
+/* Form Design */
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width: 100%;
+    padding: 18px 30px 18px 20px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    
+
 }
