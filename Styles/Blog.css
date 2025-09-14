@@ -70,6 +70,16 @@ li a {
    
 }
 
+.btn-contact{
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
 
 
 /* Banner Information  */
@@ -113,6 +123,11 @@ li a {
 
 .banner img{
     border-radius: 900px;
+}
+
+.banner-gap{
+    display: flex;
+    gap: 30px;
 }
 
 /* .banner-content > div{
@@ -345,6 +360,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     font-size: 16px;
     font-weight: 400;
     display: block;
+    border: none;
+    border-radius: 5px;
     
 
 }
